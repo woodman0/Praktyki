@@ -1,5 +1,3 @@
-Siema filip
-
 body {
     background-color: #B3DBE1;
     font-family: 'DM Serif Display', serif;
@@ -40,35 +38,33 @@ h2 {
 
 /* Logowanie */
 
-.logAnim
-{
-	animation-name: zaloguj;
-	animation-duration: 0.7s;
-	animation-timing-function: ease-out;
-	overflow: hidden
-}
-.logRev
-{
-	animation-name: zalogujRev;
-	animation-duration: 0.7s;
-	animation-timing-function: ease-out;
-	overflow: hidden;
-}
-.regAnim
-{
-	animation-name: rejestracja;
-	animation-duration: 0.7s;
-	animation-timing-function: ease-out;
-	overflow: hidden
-}
-.regRev
-{
-	animation-name: rejestracjaRev;
-	animation-duration: 0.7s;
-	animation-timing-function: ease-out;
-	overflow: hidden;
+.logAnim {
+    animation-name: zaloguj;
+    animation-duration: 0.7s;
+    animation-timing-function: ease-out;
+    overflow: hidden
 }
 
+.logRev {
+    animation-name: zalogujRev;
+    animation-duration: 0.7s;
+    animation-timing-function: ease-out;
+    overflow: hidden;
+}
+
+.regAnim {
+    animation-name: rejestracja;
+    animation-duration: 0.7s;
+    animation-timing-function: ease-out;
+    overflow: hidden
+}
+
+.regRev {
+    animation-name: rejestracjaRev;
+    animation-duration: 0.7s;
+    animation-timing-function: ease-out;
+    overflow: hidden;
+}
 
 .log-btn:hover,
 .reg-btn:hover {
@@ -87,7 +83,6 @@ h2 {
     text-decoration: none;
     font-size: 40px;
     display: block;
-
 }
 
 .logo-detail-act {
@@ -112,15 +107,15 @@ input:focus {
 
 button {
     margin-top: 10px;
-	font-weight: bold;
+    font-weight: bold;
 }
 
 p {
     margin-top: 20px;
 }
-a
-{
-	color:white;
+
+a {
+    color: white;
 }
 
 .zobaczHaslo {
@@ -132,18 +127,18 @@ a
     background-color: white;
     border-radius: 3px;
 }
-input[type="radio"]
-{
-	display: inline;
-	box-shadow: 0 0 0;
+
+input[type="radio"] {
+    display: inline;
+    box-shadow: 0 0 0;
 }
-label
-{
-	color: white;
+
+label {
+    color: white;
 }
-.error
-{
-	color:red;
+
+.error {
+    color: red;
 }
 
 
@@ -168,27 +163,23 @@ label
 }
 
 @keyframes zaloguj {
-  from 
-  {
-	  height: 0;
-	  opacity: 0;
-  }
-  to 
-  {
-	  height: 175px;
-	  opacity: 1;
-  }
+    from {
+        height: 0;
+        opacity: 0;
+    }
+    to {
+        height: 175px;
+        opacity: 1;
+    }
 }
 
 @keyframes rejestracja {
-  from 
-  {
-	  height: 0;
-	  opacity: 0;
-  }
-  to 
-  {
-	  height:387px;
-	  opacity: 1;
-  }
+    from {
+        height: 0;
+        opacity: 0;
+    }
+    to {
+        height: 387px;
+        opacity: 1;
+    }
 }
