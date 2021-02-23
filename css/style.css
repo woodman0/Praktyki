@@ -1,3 +1,5 @@
+Siema filip
+
 body {
     background-color: #B3DBE1;
     font-family: 'DM Serif Display', serif;
@@ -164,11 +166,6 @@ label
     font-size: 19px;
     color: white;
 }
-.hello
-{
-text-align: center;
-font-size: 10px;
-}
 
 @keyframes zaloguj {
   from 
@@ -195,4 +192,3 @@ font-size: 10px;
 	  opacity: 1;
   }
 }
-hello
