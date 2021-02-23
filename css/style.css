@@ -167,6 +167,7 @@ label
 .hello
 {
 text-align: center;
+font-size: 10px;
 }
 
 @keyframes zaloguj {
