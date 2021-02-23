@@ -61,4 +61,3 @@ for (const btn of hasloBtn) {
         btn.addEventListener("mouseup", hide);
     });
 }
-//siema
